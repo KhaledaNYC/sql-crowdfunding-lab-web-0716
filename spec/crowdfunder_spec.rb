@@ -1,5 +1,5 @@
 require "spec_helper"
-
+require "pry"
 describe "crowdfunder sql" do
   before do
     @db = SQLite3::Database.new(':memory:')
@@ -119,4 +119,3 @@ describe "crowdfunder sql" do
     end
   end
 end
-
